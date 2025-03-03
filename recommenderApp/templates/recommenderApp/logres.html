@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Success</h1>
+    {{ token }}
+
+    {% for pls in playlist.items %}
+        <h3>Playlist name : {{pls.name}} </h3> 
+        Link- <a href="{{pls.external_urls.spotify}}">{{pls.external_urls.spotify}}</a>
+    {% endfor %}
+</body>
+</html>
