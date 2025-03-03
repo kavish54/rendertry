@@ -18,3 +18,5 @@ media/
 
 # Ignore VS Code settings (optional)
 .vscode/
+
+.cache
